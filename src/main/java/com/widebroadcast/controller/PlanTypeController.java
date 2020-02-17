@@ -44,7 +44,6 @@ public class PlanTypeController {
 		planTypeResponseDto.setStatusCode(HttpStatus.OK.value());
 		planTypeResponseDto.setMessage(AppConstant.SUCCESS_MESSAGE);
 		log.info("return the response details ...");
-		// return new ResponseEntity<>(loginResponseDto, HttpStatus.OK);
 		return new ResponseEntity<>(planTypeResponseDto, HttpStatus.OK);
 	}
 
