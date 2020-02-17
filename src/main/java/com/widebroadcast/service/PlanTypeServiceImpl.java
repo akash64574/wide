@@ -32,9 +32,7 @@ public class PlanTypeServiceImpl implements PlanTypeService {
 	public List<PlanDto> getAllPlans() {
 		log.info("starting getAllPlan method , inside PlanTypeServiceImpl ...");
 		List<PlanType> findAll = planTypeRepository.findAll();
-		List<PlanDto> plan = findAll.stream().map(this::convertEntityToDto).collect(Collectors.toList());
-
-		return plan;
+		return findAll.stream().map(this::convertEntityToDto).collect(Collectors.toList());
 	}
 
 	private PlanDto convertEntityToDto(PlanType planType) {
