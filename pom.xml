@@ -20,7 +20,7 @@
 		<sonar.coverage.exclusions>
 			**/dto/*,**/entity/*,**/config/*,
 			**/constant/*,**/exception/*, **/common/*,
-			**/WidebroadcastApplicationTests.java/*
+			**/WidebroadcastApplication.java/*
 		</sonar.coverage.exclusions>
 	</properties>
 
