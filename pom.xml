@@ -19,7 +19,8 @@
 		<java.version>1.8</java.version>
 		<sonar.coverage.exclusions>
 			**/dto/*,**/entity/*,**/config/*,
-			**/constant/*,**/exception/*, **/common/*
+			**/constant/*,**/exception/*, **/common/*,
+			**/WidebroadcastApplicationTests.java/*
 		</sonar.coverage.exclusions>
 	</properties>
 
